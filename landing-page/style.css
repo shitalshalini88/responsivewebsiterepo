@@ -47,14 +47,15 @@ header .container {
 
 /* Hero Section */
 .hero {
-    background: url('https://source.unsplash.com/1600x900/?technology,business') no-repeat center center/cover;
-    color: white;
-    height: 90vh;
+    background-image: url('https://via.placeholder.com/1500x800?text=Hero+Image'); /* Placeholder image */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    color:black;
 }
 
 .hero-content h2 {
@@ -87,7 +88,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 200px;
 }
 
 /* Responsive Design */
